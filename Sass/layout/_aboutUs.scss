@@ -1,0 +1,35 @@
+.about-us {
+  margin-top: 30px;
+  padding: 80px;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .about-us-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 70%;
+
+    .about-us-text {
+      h2 {
+        font-size: 30px;
+        color: $dark-color;
+        margin-bottom: 10px;
+      }
+      h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: $gray-color;
+      }
+      p {
+        color: $dark-color;
+        margin-bottom: 50px;
+      }
+    }
+    img {
+      box-shadow: 4px 8px 40px 8px rgba(0, 0, 0, 0.185);
+    }
+  }
+}

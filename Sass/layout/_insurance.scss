@@ -1,0 +1,35 @@
+.insurance {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+
+  .ins-container {
+    width: 60%;
+    padding: 10px;
+
+    .ins-title {
+      margin-bottom: 20px;
+      h2 {
+        font-size: 24px;
+        font-weight: 700;
+        color: $dark-color;
+      }
+      p {
+        font-size: 19px;
+        color: $gray-color;
+        font-weight: 400;
+      }
+    }
+
+    .ins-image-wrapper {
+      display: flex;
+      justify-content: center;
+      img {
+        border: 1px solid #d3d3d3;
+        padding: 30px;
+        width: 310px;
+        object-fit: contain;
+      }
+    }
+  }
+}

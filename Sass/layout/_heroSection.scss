@@ -1,0 +1,42 @@
+.hero {
+  height: 60vh;
+  position: relative;
+  font-family: $main-font;
+  font-weight: bolder;
+
+  .hero-image {
+    background-image: url("https://www.portotheme.com/wordpress/porto/medical/wp-content/uploads/sites/67/2024/02/medical-slide-1.jpg");
+    background-size: cover;
+    height: 60vh;
+    margin-top: 70px;
+    filter: brightness(0.8);
+  }
+
+  h1 {
+    color: $light-color;
+    position: absolute;
+    left: $hero-text-positionX;
+    bottom: 200px;
+    font-size: 55px;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    color: $light-color;
+    position: absolute;
+    left: $hero-text-positionX;
+    bottom: 165px;
+    font-size: 45;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: $light-color;
+    position: absolute;
+    left: $hero-text-positionX;
+    bottom: 130px;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+}
