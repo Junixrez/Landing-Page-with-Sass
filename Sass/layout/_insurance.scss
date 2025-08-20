@@ -1,15 +1,18 @@
 .insurance {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 20px 0;
+  height: 50vh;
 
   .ins-container {
     width: 60%;
     padding: 10px;
 
     .ins-title {
-      margin-bottom: 20px;
+      margin-bottom: 50px;
       h2 {
+        margin-bottom: 10px;
         font-size: 24px;
         font-weight: 700;
         color: $dark-color;
